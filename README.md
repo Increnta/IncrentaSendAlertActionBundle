@@ -5,8 +5,8 @@ Bundle features:
 
 ## Install:
 
-Clone this repo inside your mautic plugins directory:
+Clone this repo inside your mautic plugins directory and clean cache:
 
 ```bash
-git clone https://github.com/Increnta/IncrentaBundle.git  mautic_root/plugins
+git clone https://github.com/Increnta/IncrentaBundle.git  mautic_root/plugins && php app/console cache:clear
 ```
