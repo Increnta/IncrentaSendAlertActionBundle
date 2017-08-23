@@ -8,7 +8,7 @@ Bundle features:
 1. Clone this repo inside your mautic plugins directory
 
 ```bash
-git clone https://github.com/Increnta/IncrentaBundle.git  mautic_root/plugins
+git clone https://github.com/Increnta/IncrentaSendAlertActionBundle.git mautic_root/plugins
 ```
 2. Clean cache using symfony commands
 ```
