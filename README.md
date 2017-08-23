@@ -1,4 +1,4 @@
-# IncrentaBundle
+# IncrentaSendAlertActionBundle
 
 Bundle features:
 * Add "Send alert" action to campaigns
