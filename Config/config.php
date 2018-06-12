@@ -25,7 +25,14 @@ return [
                     'mautic.channel.model.queue',
                     'mautic.helper.mailer'
                 ]
-            )
+            ),
+            'plugin.increnta.stages.subscriber' => [
+                'class'     => 'MauticPlugin\IncrentaBundle\EventListener\StageSubscriber',
+                'arguments' => [
+                    'mautic.helper.ip_lookup',
+                    'mautic.core.model.auditlog',
+                ],
+            ],
         ),
         'forms'  => array(
             'increnta.campaign.form.sendalert' => array(
